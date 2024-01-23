@@ -47,27 +47,16 @@ body {
     font-family: "DM Sans", sans-serif;;
 }
 
-.biblioteca{
+.library{
 
-    background: linear-gradient(to bottom, #08552e, #1f861f);
-    border-radius: 8px;
-    padding-left: 12px;
-    
-}
-
-.biblioteca a {
-    display: flex;
-    
-    
-}
-
-.biblioteca span {
-    margin-right: 10px; 
-    font-size: 16px;
-}
-
-.biblioteca .fa-plus{
-    margin-left: auto;
-    
-
+  background: linear-gradient(to bottom, #08552e, #1f861f);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4px 8px;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
 }
